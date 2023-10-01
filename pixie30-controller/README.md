@@ -1,0 +1,1 @@
+Lominie Pixie 30 is a cheap 30W led light. It comes with an IR remote control. Here I will show how to emulate the IR control with a raspberry pi, to programmatically control the light.
