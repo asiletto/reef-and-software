@@ -1,0 +1,1 @@
+Inkbird ITC-306A is a wifi temperature controller. It can be programmed with it's own app. There is a local-api interface, not documented, that can be used to program the controller programmatically from the local network with a raspberry pi.
