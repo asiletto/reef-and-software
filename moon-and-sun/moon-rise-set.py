@@ -28,6 +28,6 @@ t1 = ts.utc(startTime + timedelta(weeks=1))
 
 def moon_skyfield(t0, t1):
     for t, updown in zip(*almanac.find_discrete(t0, t1, f)):        
-        print(('Moon rise' if updown else 'Moon set ') + " " + t.astimezone(utc).strftime('%Y-%m-%d %H:%M:%S %Z'))
+        print(('Moon rise' if updown else 'Moon set ') + " @"+CITY['name']+": " + t.astimezone(utc).strftime('%Y-%m-%d %H:%M:%S %Z'))
 
 moon_skyfield(t0, t1)
