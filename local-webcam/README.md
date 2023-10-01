@@ -1,0 +1,1 @@
+get images or video stream from a local wifi camera using RTSP
